@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+    <link rel="stylesheet" href="css/forms.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <h2>Register job</h2>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container" >
+        <form action="post" id="post-jobs">
+          <div style="overflow: auto">
+            <input type="text" placeholder="Company Name" name="companyName" />
+            <input type="text" placeholder="title" name="title" />
+            <textarea
+              rows="15"
+              cols="50"
+              placeholder="About the job"
+              name="about"
+            ></textarea>
+            <input type="text" placeholder="Minimum Qualification required" name="qualification" />
+            <input type="text" placeholder="Job Location" name="location" />
+            <input type="text" placeholder="CTC" name="ctc" />
+            <label>Job type:</label>
+            <select name="type">
+              <option value="internship">Internship</option>
+              <option value="fulltime">Full-time</option>
+              <option value="parttime">Part-time</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Skills required for the job"
+              name="tags"
+            />
+
+            <div>
+              <input type="submit" value="Post Job" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type='text/javascript' src="js/formsubmit.js"></script>
+    <script>
+      document
+        .getElementById("post-jobs")
+        .addEventListener("submit", postjob);
+    </script>
+  </body>
+</html>

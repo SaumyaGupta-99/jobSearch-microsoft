@@ -1,0 +1,39 @@
+{
+  "name": "job-search-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "generated with Skaffolder    www.skaffolder.com  ",
+  "scripts": {
+    "build": "nodemon index.js",
+    "start": "nodemon index.js",
+    "debug": "nodemon --inspect-brk index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.27.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.17.2",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "erel": "^1.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.16.4",
+    "extend": "^3.0.1",
+    "form-data": "^3.0.0",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^5.5.0",
+    "multer": "^1.4.2",
+    "nodemon": "^1.11.0",
+    "winston": "^3.2.1"
+  },
+  "repository": {},
+  "main": "index.js",
+  "module": "main.js",
+  "directories": {
+    "test": "test"
+  }
+}

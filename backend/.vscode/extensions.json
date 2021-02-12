@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "CoenraadS.bracket-pair-colorizer",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "VisualStudioExptTeam.vscodeintellicode"
+  ]
+}
